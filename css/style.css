@@ -20,6 +20,10 @@ header img {
   margin: auto;
 }
 
+header p {
+  font-family: 'Play';
+}
+
 nav ul{
   list-style: none;
   padding: 0;
@@ -60,8 +64,13 @@ h2 {
   width: 100%;
 }
 
-footer {
+footer,
+#contact {
   background-color: #efefef ;
+}
+
+#contact {
+  padding-bottom: 50px;
 }
 
 .contact {
@@ -70,7 +79,7 @@ footer {
 }
 
 .bottom-nav {
-  margin: 50px 10px 0 10px;
+  margin: 0 10px 0 10px;
   border-top: 1px solid grey;
   padding-bottom: 10px;
   text-align: right;
@@ -79,6 +88,7 @@ footer {
 .bottom-nav h4{
   float: left;
 }
+
 
 .bottom-nav ul li .top {
   display: inline-block;
@@ -96,12 +106,13 @@ footer {
     padding-top: 50px;
   }
   header p {
-    font-size: 1.5rem;
+    font-size: 1.6rem;
   }
   header img {
     float: right;
     width: 40%;
   }
+
   .main-nav {
     display: inline-block;
   }
@@ -117,7 +128,9 @@ footer {
     float: left;
     display: inline-block;
     width: 50%;
-    padding: 10px;
+    padding: 20px;
+    min-height: 400px;
+    margin: 0 auto;
    }
 
   .bottom-nav ul{
@@ -146,6 +159,12 @@ footer {
   }
   .main-nav {
     width: 100%;
+  }
+  header {
+    margin: 20px;
+  }
+  header p {
+    font-size: 2.1rem;
   }
   .main-nav h1 {
     float: left;
