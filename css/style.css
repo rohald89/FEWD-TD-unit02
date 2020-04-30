@@ -59,6 +59,10 @@ nav a{
   padding-bottom: 5px;
 }
 
+.main-nav a {
+  background-color: white;
+}
+
 nav a:hover {
   padding-bottom: 3px;
   border-bottom: 2px solid black;
@@ -142,9 +146,11 @@ h2 {
   }
   .main-nav ul li{
     float: left;
-    background: none;
   }
 
+  .main-nav a {
+    background: none;
+  }
   section.container {
     float: left;
     display: inline-block;
