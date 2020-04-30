@@ -31,12 +31,12 @@ nav ul{
   padding: 0;
 }
 
-#portfolio,
+.wrapper,
 .container {
   background-color: white;
 }
 .container{
-  width: 90%;
+  padding: 30px;
   margin: auto;
 }
 
@@ -60,6 +60,7 @@ h2 {
   text-transform: uppercase;
   font-size: 1.1rem;
   padding: 30px 0;
+  margin: 0;
 }
 
 .wrapper h3 {
@@ -69,6 +70,17 @@ h2 {
 
 .wrapper img {
   width: 100%;
+}
+
+.skills {
+  background-color: white;
+  margin: 30px 0;
+}
+.wrap {
+  padding: 20px;
+}
+.logo {
+  height: 150px;
 }
 
 footer,
@@ -87,7 +99,7 @@ footer,
 
 .bottom-nav {
   margin: 0 15px 0 10px;
-  border-top: 1px solid grey;
+  border-top: 2px solid grey;
   padding-bottom: 10px;
   text-align: right;
 }
@@ -139,6 +151,13 @@ footer,
     margin: 0 auto;
    }
 
+   .wrap {
+     float: left;
+     display: inline-block;
+     width: 33.33%;
+   }
+
+
   .bottom-nav ul{
     display: inline-block;
   }
@@ -182,6 +201,15 @@ footer,
   }
 
   section.container {
-    width: 33.33333%
+    width: 33.33%;
+  }
+
+  .skills {
+    padding: 0 10%;
+  }
+
+  .wrap {
+    width: 33.33%;
+    margin: 0 auto;
   }
 }
