@@ -2,7 +2,7 @@
   box-sizing: border-box;
 }
 html {
-  background-color: #efefef;
+  background-color: #fbeec1;
 }
 body {
   text-align: center;
@@ -12,7 +12,7 @@ body {
 
 header {
   padding: 10px;
-  background-color: #efefef ;
+  margin-bottom: 40px;
 }
 header h1 {
   margin-top: 0;
@@ -20,6 +20,7 @@ header h1 {
 header img {
   width: 70%;
   margin: auto;
+  box-shadow: 2px 2px 4px;
 }
 
 header p {
@@ -32,8 +33,10 @@ nav ul{
 }
 
 .wrapper,
-.container {
-  background-color: white;
+.container,
+#skills {
+  background-color: #8d8741;
+  color: white
 }
 .container{
   padding: 30px;
@@ -41,7 +44,6 @@ nav ul{
 }
 
 .main-nav ul li {
-  background-color: white;
   padding: 10px;
   margin: 5px;
   text-transform: uppercase;
@@ -54,6 +56,12 @@ nav a{
   text-transform: uppercase;
   font-weight: bold;
   color: black;
+  padding-bottom: 5px;
+}
+
+nav a:hover {
+  padding-bottom: 3px;
+  border-bottom: 2px solid black;
 }
 
 h2 {
@@ -73,7 +81,6 @@ h2 {
 }
 
 .skills {
-  background-color: white;
   margin: 30px 0;
 }
 .wrap {
@@ -81,11 +88,6 @@ h2 {
 }
 .logo {
   height: 150px;
-}
-
-footer,
-#contact {
-  background-color: #efefef ;
 }
 
 #contact {
@@ -99,7 +101,7 @@ footer,
 
 .bottom-nav {
   margin: 0 15px 0 10px;
-  border-top: 2px solid grey;
+  border-top: 2px solid #bc986a;
   padding-bottom: 10px;
   text-align: right;
 }
@@ -121,14 +123,15 @@ footer,
 
 @media (min-width: 768px) {
   header {
-    padding-top: 50px;
+    padding-top: 20px;
   }
   header p {
     font-size: 1.6rem;
   }
   header img {
     float: right;
-    width: 40%;
+    width: 50%;
+    margin: 0 20px;
   }
 
   .main-nav {
@@ -198,6 +201,10 @@ footer,
   .main-nav ul {
     display: inline-block;
     float: right;
+  }
+  .wrapper,
+  .skills{
+    box-shadow: 0 7px 12px black;
   }
 
   section.container {
